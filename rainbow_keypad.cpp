@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
 #include "pico/stdlib.h"
 
 #include "pico_rgb_keypad.hpp"
@@ -9,9 +6,7 @@ using namespace pimoroni;
 
 PicoRGBKeypad teclado;
 
-uint8_t rojo = 0;
-uint8_t verde = 0;
-uint8_t azul = 0;
+uint8_t rojo = 0, verde = 0, azul = 0;
 uint8_t boton = 0;
 const uint8_t RANGO = 17;
 
